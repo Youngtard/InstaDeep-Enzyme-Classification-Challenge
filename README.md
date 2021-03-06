@@ -1,3 +1,5 @@
+Link to competition - https://zindi.africa/competitions/instadeep-enzyme-classification-challenge
+
 My model is a fine-tuned pretrained model that was trained on billions of protein sequence data (BFD). It is based on the Transformers architecture - BERT  in particular. The pretrained model can be found here. There was no need for me to use the given unlabelled sequences. There is a similar pretrained model trained on lesser data. Both give good results. As it is integrated into the HuggingFace library, one can easily use them in similar fashion as other popular models like BERT.
 
 There was no need for much fine-tuning as one could get good results of about 90%+ accuracy with little to no tuning. The data is also large enough to learn from various patterns.
